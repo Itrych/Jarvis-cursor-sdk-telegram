@@ -1,0 +1,28 @@
+[project]
+name = "jarvis"
+version = "0.1.0"
+description = "Telegram daemon for local Cursor SDK agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiogram>=3.13",
+    "cursor-sdk",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.4",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "aiosqlite>=0.20",
+]
+
+[project.scripts]
+jarvis = "jarvis.__main__:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

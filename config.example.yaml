@@ -1,0 +1,13 @@
+# Copy to config.yaml and adjust paths for this machine.
+# Secrets stay in .env, not here.
+
+projects_root: "~/jarvis-projects"
+
+cursor:
+  default_model: "composer-2.5"
+  # Bridge workspace should stay stable across daemon restarts.
+  bridge_workspace: "~/jarvis-projects"
+
+telegram:
+  # Numeric Telegram user ids. TELEGRAM_ALLOWED_USER_IDS in .env extends this list.
+  allowed_user_ids: []

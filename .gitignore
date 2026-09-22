@@ -1,0 +1,25 @@
+# Secrets and machine-local config
+.env
+config.yaml
+
+# Internal notes, not part of the published tree
+_docs/
+_other/
+AGENTS.md
+.cursor/
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/
+*.db
+*.db-journal
+.DS_Store
+Thumbs.db
