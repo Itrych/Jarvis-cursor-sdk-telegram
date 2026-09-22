@@ -4,6 +4,12 @@
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Repository versions match `version` in `pyproject.toml`.
 
+## [Unreleased]
+
+### Changed
+
+- The repository is open for public reading.
+
 ## [0.1.0] - 2026-09-22
 
 First publication of the private repository.

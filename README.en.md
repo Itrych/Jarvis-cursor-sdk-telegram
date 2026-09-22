@@ -4,7 +4,7 @@
 
 A Telegram daemon for local Cursor SDK agents. You send a task from chat. The agent reads and writes files on the machine where Jarvis is running. The editor is only needed when you want to look at the result.
 
-This repository is private. Version `0.1.0`.
+Version `0.1.0`.
 
 ## Capabilities
 

@@ -2,7 +2,7 @@
 
 [Русский](CONTRIBUTING.md)
 
-This repository is private. The owner accepts changes. The notes below are the working agreement for the code.
+The repository owner accepts changes. The notes below are the working agreement for the code.
 
 ## Setup
 

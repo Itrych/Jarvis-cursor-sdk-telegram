@@ -8,7 +8,7 @@ Jarvis is a remote control for the machine it runs on. A local Cursor SDK agent 
 
 Do not attach tokens, API keys, `.env` contents, or session dumps.
 
-For this private repository, contact the owner through GitHub. There is no public contact and no bug-bounty program.
+Contact the owner through GitHub. There is no separate security contact and no bug-bounty program.
 
 ## What is already limited
 
