@@ -2,19 +2,21 @@
 
 [Русский](README.md)
 
-A Telegram daemon for local Cursor SDK agents. You send a task from chat. The agent reads and writes files on the machine where Jarvis is running. The editor is only needed when you want to look at the result.
+A Telegram daemon for local Cursor SDK agents. All work starts and continues in a Telegram chat. The agent reads and writes files on the machine where Jarvis is running. The result comes back in Telegram. No IDE. No need to sit at the machine. Jarvis stays in your pocket and stays available.
 
-Version `0.1.0`.
+Version 0.1.0.
 
 ## Capabilities
 
-- Telegram long polling. The daemon stays up as long as the process and the network stay up. No public address and no inbound port are required.
-- Access is limited to an allowlist of numeric Telegram user ids.
-- Several on-disk projects. One project is active in the chat. Switching does not cancel a run in another project.
-- A local Cursor SDK agent. The model and the project directory are set explicitly. The conversation continues through `send` and `resume`.
-- Model and reasoning-effort selection from the account catalog.
-- A live chat reply, edited at most about once a second. A new sentence that starts with a capital letter begins on its own line.
-- A project file tree, plus sending a file. A directory or the whole project is sent as a zip when it fits the Telegram size limit.
+- The Telegram daemon runs locally and stays up as long as the process and the network stay up. No public address and no inbound ports are required.
+- Access to the Telegram bot is limited to the User IDs you list.
+- Any number of projects. Several can be in progress at the same time.
+- Agents run through the Cursor SDK.
+- Each project lives in its own subdirectory.
+- Pick a model and a reasoning level for each project (you can change them on the fly) from the Cursor catalog available to your account.
+- A live chat with the model. You see the reasoning, answer questions, and edit the project without leaving Telegram.
+- After a run you can ask Telegram to send the whole project as an archive, or a specific file.
+- The agent can use whatever is available locally on the machine running the daemon. Same as an agent in Cursor IDE, only in Telegram.
 
 ## How it fits together
 
